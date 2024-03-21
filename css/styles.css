@@ -1,0 +1,254 @@
+
+header {
+    /* min-width: 100%; */
+    color: white;
+    background-image: url("../images/photo-1598488035139-bdbb2231ce04.avif");
+    background-size: cover;
+
+    /* Workaround for some mobile browsers */
+    min-height: 100%;
+    /* min-width: 100%; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar li:hover {
+    background-color: rgb(211, 206, 206);
+    color: black;
+    border: none;
+    border-radius: 20px;
+}
+
+.navbar .navbar-brand:hover {
+    color: #fafa24;
+    cursor: default;
+}
+
+header .navbar-brand {
+    color:rgb(7, 255, 12);
+    font-style: italic;
+    font-family: cursive;
+}
+
+.nav-background {
+    background: radial-gradient(black , rgb(0, 191, 255));
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#secHeader {
+    height: 500px;
+    text-align: center;
+    padding: 100px;
+}
+
+#secHeader h2 {
+    font-size: 50px;
+    font-style: italic;
+    
+}
+
+#secHeader h1 {
+    font-size: 80px;
+}
+
+#secHeader button {
+    background-color: #fafa24;
+    border: none;
+    color: rgb(254, 255, 255);
+    font-weight: bolder;
+}
+
+#secHeader button:hover {
+    background-color: #c3c307;
+}
+
+#sec02 {
+    justify-content: center;
+    text-align: center;
+    min-height: 300px;
+    margin: 60px auto;
+}
+
+#sec02 .row1{
+    margin-bottom: 20px;
+}
+
+#sec02 .row02 img {
+    max-height: 150px;
+    margin: 15px auto;
+    
+}
+
+#sec02 .sec02Col {
+    border: none;
+    border-radius: 10px;
+}
+
+#sec02 .sec02Col:hover {
+    padding: 10px;
+    background: radial-gradient(white, rgb(66, 221, 229));
+    cursor: pointer;
+}
+
+#sec03 {
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    width: 100%; 
+}
+
+#sec03 .cardDiv {
+    
+    margin-left: auto;
+
+}
+
+#sec03 .cardDiv .card {
+    height: 400px;
+    width: 360px;
+    
+    margin-top: 20px;
+    
+}
+
+#sec03 img {
+    height: 300px;
+    width: 360px;
+    object-fit: cover;
+}
+
+
+#sec05{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-color: rgb(250, 250, 250);
+}
+
+#sec05TeamD {
+    text-align: center;
+    padding: 40px;
+}
+
+#seco5Row2 div{
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+#seco5Row2 div:hover {
+    padding: 10px;
+    background: radial-gradient(white, rgb(20, 125, 254));
+    cursor: pointer;
+}
+
+#seco5Row2 img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+#seco5Row2 svg {
+    height: 50px;
+    
+}
+
+#sec06 {
+    background-image: url(../images/HD-wallpaper-white-world-map-digital-art-maps-world-map-concept-artwork-creative-abstract-world-map-world-maps.jpg);
+    object-fit: cover;
+    margin-bottom: 30px;
+    min-height: 400px;
+}
+
+#sec06 #sec06Div1 {
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#sec06 form input {
+    height: 50px;
+}
+
+ #sec06btn{
+    text-align: center;
+}
+
+#sec06 #sec06btn button {
+    background-color: rgb(255, 179, 0);
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+}
+
+#sec06 #sec06btn button:hover {
+    background-color: rgb(255, 225, 0);
+}
+
+
+
+
+#footerSec01 {
+    background-color: rgb(25, 56, 73);
+    text-align: left;
+}
+#footerSec01Row {
+    margin-left: 60px;
+    padding-top: 40px;
+    color: white;
+    font-size: 14px;
+}
+
+#footerSec01Row .footerTextLinks {
+    padding: 20px;
+}
+
+#footerSec01Row h6 a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+#footerSec01Row h6 a:hover {
+    background-color: rgb(240, 239, 239);
+    color: black;
+    padding: 5px;
+}
+
+#footerSec01RowImg .footerImg1 {
+    margin-top: 10px;
+}
+
+#footerSec01RowImg .footerImg1  img {
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+
+#footerSec01RowImg p {
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+#footerSec02 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: rgb(220, 219, 219);
+    font-size: 10px;
+}
